@@ -1,6 +1,6 @@
 Permutation test with the t-statistic:
 
-This script is usefull if the user has to compare quantitative mesaurments from matrices that do not follow a normal distribution. It is not a simple Non-parametric test because do not consider outliers. The procedure is similar of a paired-test but with 10000 permutations. 
+This script is usefull if the user has to compare quantitative measurments from matrices that do not follow a normal distribution. It is not a simple Non-parametric test because do not consider outliers. The procedure is similar of a paired-test but with 10000 permutations. 
 
 Assumption: The dataset do not follow a "T-Normal" distribution
 
