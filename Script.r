@@ -84,7 +84,6 @@ for (i in 1:n_rows) {
 }
 
 for (i in 1:length(T_obs)){
-  
   for (j in 1:t_emp_cols) {
     if ( !is.na(t_value_emp_matrix[i,j])) {
       if (abs(T_obs[i]) <= abs(t_value_emp_matrix[i,j])){
