@@ -8,4 +8,6 @@ Input Two Matrices: Control and Treatment
 
 Return: a T observed and a T empirical
 
-You can select the treshold by which your T-values observed are significant or not to the respect of the T-values empirical. In Script.r it is possible to find an example on how to use the script.  
+It is possible to select the treshold by which the T-values observed are significant or not to the respect of the T-values empirical. 
+
+In Script.r it is possible to find an example on how to use the script.  
