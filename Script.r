@@ -55,7 +55,7 @@ psi_diff[mask] <- -psi_diff[mask]
 Mean <- apply(psi_diff, 1, mean)
 SD <- apply(psi_diff,1, sd)
 
-#Finally Calculate T empirical and P empirical
+#Finally Calculate T empirical 
 T_emp <- Mean/(SD/sqrt(x = 39))
  
 #####################################
