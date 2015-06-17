@@ -18,7 +18,7 @@ psi_infected <- psi_infected[,-1]
 psi_infected_mean <- colMeans(psi_infected)
 psi_naive_mean <- colMeans(psi_naive)
 diff_mean <- psi_infected_mean-psi_naive_mean
-#hist(diff_mean, main="Mean Differences Distribution",xlab="Mean Difference Values",ylab="Samples")
+hist(diff_mean, main="Mean Differences Distribution",xlab="Mean Difference Values",ylab="Samples")
 
 #Compute the T observed
 #Calculate the difference for each value of the two matrix
