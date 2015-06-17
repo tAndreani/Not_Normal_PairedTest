@@ -6,4 +6,4 @@ Assumption: The dataset do not follow a "T-Normal" distribution
 
 Input Two Matrices: Control and Treatment
 Return: a T observed and a T empirical
-You can select the threshold by which your T-values observed are significant or not to the respect of the T-values empirical 
+You can select the treshold by which your T-values observed are significant or not to the respect of the T-values empirical. In Script.r it is possible to find an example on how to use the script.  
