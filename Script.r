@@ -32,9 +32,9 @@ for (i in 1:126){
 Mean <- apply(Difference_Matrix, 1, mean)
 SD <- apply(Difference_Matrix,1, sd)
 
-#Calculate T observed and P observed
+#Calculate T observed 
 T_obs <- Mean/(SD/sqrt(x = 38))
-P_obs <- 
+ 
 #Compute T Empirical 
 #Compute Differences of conditions (same as before) 
 psi_diff <- matrix(, nrow = 126, ncol = 39)
