@@ -8,7 +8,7 @@ psi <- read.table("psi_values_cassette.filtered.50%_population.tsv",header=TRUE)
 #Eliminate NA
 psi <- na.omit(psi)
 
-#Split yout matrix in 2 matrix each one for condition
+#Split the matrixes in 2 matrix each one for condition
 psi_infected <- psi[,seq(from=1,to=79, by=2)]
 psi_naive <- psi[,seq(from=2, to=78, by=2)]
 #Eliminate the column of the exons
