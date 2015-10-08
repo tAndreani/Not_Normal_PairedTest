@@ -6,8 +6,8 @@ Assumption: The dataset do not follow a "T-Normal" distribution
 
 Input Two Matrices: Control and Treatment
 
-Return: a T observed and a T empirical
+Return: a T observed and a T permuted
 
-It is possible to select the treshold by which the T-values observed are significant or not to the respect of the T-values empirical. 
+It is possible to select the treshold by which the T-values observed are significant or not to the respect of the T-values permuted. 
 
 In Script.r it is possible to find an example on how to use the script.  
