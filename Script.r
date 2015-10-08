@@ -35,8 +35,8 @@ SD <- apply(Difference_Matrix,1, sd)
 #Calculate T observed 
 T_obs <- Mean/(SD/sqrt(x = 38))
  
-#Compute T Empirical 
-#Compute Differences of conditions (same as before) 
+
+#Compute Differences of conditions in order to perform permutation (same as before) 
 psi_diff <- matrix(, nrow = 126, ncol = 39)
 for (i in 1:126){
   for(j in 1:39)
@@ -44,7 +44,7 @@ for (i in 1:126){
 }
 
 ###################################################
-## Compute empirical T value in one random matrix##
+##Compute permuted T value in one random matrix####
 ###################################################
 
 #First create a matrix in which the pairs are swapped
@@ -59,7 +59,7 @@ SD <- apply(psi_diff,1, sd)
 T_emp <- Mean/(SD/sqrt(x = 39))
  
 #####################################
-#Compute 15000 empirical T value#
+#Compute 15000 permuted T value######
 #####################################
 n_sampling <- 15000
 n_rows <- 126
