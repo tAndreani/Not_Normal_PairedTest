@@ -99,5 +99,5 @@ for (i in 1:length(T_obs)){
 exons <- psi$exons
 tvalues <- as.numeric(as.vector(T_emp))
 df <- cbind(exons,tvalues)
-df_subset <- subset(df,df$tvalues<=0.1 & df$tvalues!= 0) #this is you table with name of exons and tvalue significant
+df_subset <- subset(df,df$tvalues<=0.1 & df$tvalues!= 0) #this is your table with name of exons and tvalue significant
 
