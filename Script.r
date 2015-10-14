@@ -94,5 +94,10 @@ for (i in 1:length(T_obs)){
   T_emp[i] <- T_emp[i] / 15000
 } 
 
-#Check differential expressed values according to 10^-5
-length(which(T_emp<=0.00001))
+#Check differential expressed values according to 10^-1 and different than  remind that the number of exons and 
+#of Tvalues have to be the same, if not this means that something is wrong
+exons <- psi$exons
+tvalues <- as.numeric(as.vector(T_emp))
+df <- cbind(exons,tvalues)
+df_subset <- subset(df,df$tvalues<=0.1 & df$tvalues!= 0) #this is you table with name of exons and tvalue significant
+
