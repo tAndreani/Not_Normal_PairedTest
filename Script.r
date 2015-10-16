@@ -74,7 +74,7 @@ for (i in 1:n_sampling){
 }
 
 #######################################################
-##Now Compare the empirical with the observed t-value##
+##Now Compare the permuted with the observed t-value##
 #######################################################
 
 t_emp_cols <- length(t_value_emp_matrix[1,])
