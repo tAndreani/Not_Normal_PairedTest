@@ -1,5 +1,4 @@
-
-#Permutation test with the t-statistic:
+# Permutation test with the t-statistic:
 
 This script is usefull if the user has to handle with paired dataset. It is not a simple Non-parametric test because do not consider outliers. The procedure is similar of a paired-t-test but with 15000 permutations. 
 
