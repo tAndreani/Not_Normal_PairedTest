@@ -2,11 +2,11 @@ Permutation test with the t-statistic:
 
 This script is usefull if the user has to handle with paired dataset. It is not a simple Non-parametric test because do not consider outliers. The procedure is similar of a paired-t-test but with 15000 permutations. 
 
-Assumption: The dataset do not follow a "T-Normal" distribution
+`Assumption`: The dataset do not follow a "T-Normal" distribution
 
-Input Two Matrices: Control and Treatment
+`Input Two Matrices`: Control and Treatment
 
-Return: a T observed and a T permuted
+`Return`: a T observed and a T permuted
 
 It is possible to select the treshold by which the T-values observed are significant or not to the respect of the T-values permuted. 
 
